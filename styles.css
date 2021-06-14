@@ -1,0 +1,100 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+#brand {
+  font-family: 'Merriweather', serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+
+.home-icon {
+  /* color: #0B2161; */
+  color: #013ADF;
+}
+
+.house-img {
+  width: auto;
+  height: 710px;
+  max-height: 710px;
+}
+
+#nav-options {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+/* About Section */
+#about {
+  text-align: center;
+  margin: 40px;
+}
+
+#about h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#about p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.about-image {
+  height: 300px;
+  width: 400px;
+  border-radius: 100%;
+
+}
+
+.picture-space {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+
+}
+
+/* Contact Section */
+#contact {
+  text-align: center;
+  background-color:#E6E6E6;
+  border-top: solid #2E2E2E 1px;
+}
+
+#contact-div {
+  padding-top: 2%;
+}
+
+#contact h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#contact p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+/* functionality */
+.scroll-color.scrolled {
+  background-color: rgba(0,0,0,0.692);
+  box-shadow: 0 3px 1rem rgba(0,0,0,0.1);
+}
+
+@media (max-width: 1387px) {
+	#oval-3 {
+		display: none;
+	}
+}
+
+@media (max-width: 976px) {
+	#oval-2 {
+		display: none;
+	}
+}
